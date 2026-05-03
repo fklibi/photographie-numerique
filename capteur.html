@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographie Numérique - Images et Capteurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>La Photographie Numérique</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Historique</a>
+        <a href="capteur.html" class="active">Images et Capteurs</a>
+        <a href="traitement.html">Traitement d'image</a>
+        <a href="metadonnees.html">Métadonnées EXIF</a>
+    </nav>
+
+    <main>
+        <h2>Les images numériques et les capteurs photo</h2>
+
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=600" alt="Objectif et capteur d'appareil photo">
+            <p>L'objectif dirige la lumière vers le capteur photographique</p>
+        </div>
+
+        <h3>Qu'est-ce qu'une image numérique ?</h3>
+
+        <p>Une image numérique est composée de petits carrés appelés <strong>pixels</strong> (picture elements). Chaque pixel possède une couleur définie par des valeurs numériques. Plus il y a de pixels, plus l'image est détaillée.</p>
+
+        <!-- Liste non ordonnée -->
+        <ul>
+            <li>Un pixel est le plus petit élément d'une image numérique</li>
+            <li>La résolution d'une image se mesure en pixels (ex : 1920 x 1080)</li>
+            <li>Chaque pixel est codé sur 3 canaux : Rouge, Vert, Bleu (RVB)</li>
+            <li>Chaque canal est codé sur 8 bits, soit 256 valeurs possibles (0 à 255)</li>
+            <li>Un pixel peut donc prendre 256 × 256 × 256 = 16,7 millions de couleurs</li>
+        </ul>
+
+        <h3>Les types de capteurs</h3>
+
+        <!-- Liste ordonnée -->
+        <ol>
+            <li><strong>CCD (Charge-Coupled Device)</strong> : technologie plus ancienne, bonne qualité d'image, consomme plus d'énergie.</li>
+            <li><strong>CMOS (Complementary Metal-Oxide-Semiconductor)</strong> : technologie moderne, moins gourmande en énergie, utilisée dans les smartphones et reflex actuels.</li>
+            <li><strong>Foveon</strong> : capteur spécial qui capture les 3 couleurs à chaque point (utilisé par Sigma).</li>
+        </ol>
+
+        <h3>Fonctionnement d'un capteur</h3>
+
+        <p>Le capteur est recouvert d'un filtre de Bayer qui ne laisse passer qu'une seule couleur (rouge, vert ou bleu) par photosite. Un algorithme de dématriçage reconstitue ensuite la couleur complète de chaque pixel.</p>
+
+        <!-- Tableau -->
+        <h3>Comparaison des capteurs</h3>
+        <table>
+            <tr>
+                <th>Caractéristique</th>
+                <th>CCD</th>
+                <th>CMOS</th>
+            </tr>
+            <tr>
+                <td>Consommation</td>
+                <td>Élevée</td>
+                <td>Faible</td>
+            </tr>
+            <tr>
+                <td>Vitesse de lecture</td>
+                <td>Lente</td>
+                <td>Rapide</td>
+            </tr>
+            <tr>
+                <td>Bruit</td>
+                <td>Faible</td>
+                <td>Variable</td>
+            </tr>
+            <tr>
+                <td>Coût</td>
+                <td>Élevé</td>
+                <td>Faible</td>
+            </tr>
+            <tr>
+                <td>Usage actuel</td>
+                <td>Astronomie, médical</td>
+                <td>Smartphones, reflex</td>
+            </tr>
+        </table>
+
+        <!-- Tableau tailles capteurs -->
+        <h3>Tailles de capteurs courants</h3>
+        <table>
+            <tr>
+                <th>Type</th>
+                <th>Dimensions (mm)</th>
+                <th>Utilisation</th>
+            </tr>
+            <tr>
+                <td>1/2.3"</td>
+                <td>6,2 × 4,6</td>
+                <td>Smartphones</td>
+            </tr>
+            <tr>
+                <td>APS-C</td>
+                <td>23,6 × 15,6</td>
+                <td>Reflex amateurs</td>
+            </tr>
+            <tr>
+                <td>Plein format (Full Frame)</td>
+                <td>36 × 24</td>
+                <td>Reflex professionnels</td>
+            </tr>
+        </table>
+
+        <!-- Vidéo -->
+        <h3>Vidéo : Comment fonctionne un capteur photo</h3>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ALajP0vtEvw" title="Comment fonctionne un capteur d'appareil photo numérique" allowfullscreen></iframe>
+        </div>
+
+        <!-- Lien image -->
+        <h3>Ressource complémentaire</h3>
+        <div class="image-container">
+            <a href="https://pixees.fr/informatiquelycee/n_site/snt_photo.html" target="_blank">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400" alt="Site Pixees - cours photographie">
+            </a>
+            <p>Cliquez sur l'image pour accéder au cours Pixees</p>
+        </div>
+
+        <!-- Liens -->
+        <p>Liens utiles :</p>
+        <ul>
+            <li><a href="https://fr.wikipedia.org/wiki/Capteur_photographique" target="_blank">Wikipedia - Capteur photographique</a></li>
+            <li><a href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank">W3Schools - Couleurs RGB</a></li>
+        </ul>
+
+        <div class="source">
+            <strong>Sources :</strong> Pixees - Informatique au lycée (<a href="https://pixees.fr/informatiquelycee/n_site/snt_photo.html" target="_blank">pixees.fr</a>), Wikipedia - Capteur photographique.
+        </div>
+    </main>
+
+    <footer>
+        <p>Site réalisé dans le cadre du cours de NSI - 2026</p>
+    </footer>
+</body>
+</html>

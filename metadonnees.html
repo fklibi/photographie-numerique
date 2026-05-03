@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographie Numérique - Métadonnées EXIF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>La Photographie Numérique</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Historique</a>
+        <a href="capteur.html">Images et Capteurs</a>
+        <a href="traitement.html">Traitement d'image</a>
+        <a href="metadonnees.html" class="active">Métadonnées EXIF</a>
+    </nav>
+
+    <main>
+        <h2>Les métadonnées EXIF</h2>
+
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=600" alt="Appareil photo reflex numérique">
+            <p>Chaque photo numérique contient des métadonnées cachées (EXIF)</p>
+        </div>
+
+        <h3>Qu'est-ce que l'EXIF ?</h3>
+
+        <p><strong>EXIF</strong> signifie <em>Exchangeable Image File Format</em>. Ce sont des données enregistrées automatiquement par l'appareil photo au moment de la prise de vue. Elles sont intégrées directement dans le fichier image.</p>
+
+        <!-- Liste non ordonnée -->
+        <h3>Informations contenues dans les données EXIF</h3>
+        <ul>
+            <li>Date et heure de la prise de vue</li>
+            <li>Marque et modèle de l'appareil photo</li>
+            <li>Réglages : ouverture, vitesse d'obturation, sensibilité ISO</li>
+            <li>Distance focale de l'objectif</li>
+            <li>Utilisation ou non du flash</li>
+            <li>Coordonnées GPS (géolocalisation)</li>
+            <li>Orientation de l'image</li>
+            <li>Résolution de l'image</li>
+        </ul>
+
+        <h3>Pourquoi les métadonnées EXIF sont importantes</h3>
+
+        <!-- Liste ordonnée -->
+        <ol>
+            <li><strong>Pour les photographes</strong> : comprendre quels réglages donnent les meilleurs résultats.</li>
+            <li><strong>Pour le classement</strong> : trier les photos par date, lieu ou appareil.</li>
+            <li><strong>Pour la preuve</strong> : vérifier l'authenticité et l'origine d'une photo.</li>
+            <li><strong>Pour la vie privée</strong> : attention, les données GPS peuvent révéler votre localisation !</li>
+        </ol>
+
+        <!-- Tableau -->
+        <h3>Exemples de données EXIF</h3>
+        <table>
+            <tr>
+                <th>Champ EXIF</th>
+                <th>Exemple de valeur</th>
+                <th>Signification</th>
+            </tr>
+            <tr>
+                <td>Make</td>
+                <td>Canon</td>
+                <td>Marque de l'appareil</td>
+            </tr>
+            <tr>
+                <td>Model</td>
+                <td>EOS 80D</td>
+                <td>Modèle de l'appareil</td>
+            </tr>
+            <tr>
+                <td>DateTime</td>
+                <td>2025:03:15 14:30:00</td>
+                <td>Date et heure de la photo</td>
+            </tr>
+            <tr>
+                <td>ExposureTime</td>
+                <td>1/250</td>
+                <td>Vitesse d'obturation</td>
+            </tr>
+            <tr>
+                <td>FNumber</td>
+                <td>f/5.6</td>
+                <td>Ouverture du diaphragme</td>
+            </tr>
+            <tr>
+                <td>ISOSpeedRatings</td>
+                <td>400</td>
+                <td>Sensibilité du capteur</td>
+            </tr>
+            <tr>
+                <td>FocalLength</td>
+                <td>50 mm</td>
+                <td>Distance focale</td>
+            </tr>
+            <tr>
+                <td>GPSLatitude</td>
+                <td>48.8566° N</td>
+                <td>Latitude GPS</td>
+            </tr>
+        </table>
+
+        <h3>Vie privée et métadonnées</h3>
+
+        <p>Les métadonnées EXIF peuvent poser des problèmes de vie privée. Quand vous partagez une photo en ligne, les données GPS intégrées peuvent révéler l'endroit exact où la photo a été prise, y compris votre domicile.</p>
+
+        <table>
+            <tr>
+                <th>Risque</th>
+                <th>Explication</th>
+                <th>Solution</th>
+            </tr>
+            <tr>
+                <td>Géolocalisation</td>
+                <td>Les coordonnées GPS révèlent votre position</td>
+                <td>Désactiver le GPS de l'appareil photo</td>
+            </tr>
+            <tr>
+                <td>Identité</td>
+                <td>Le nom de l'appareil peut être lié à vous</td>
+                <td>Supprimer les EXIF avant de partager</td>
+            </tr>
+            <tr>
+                <td>Habitudes</td>
+                <td>Les dates et lieux montrent vos déplacements</td>
+                <td>Utiliser un outil de suppression d'EXIF</td>
+            </tr>
+        </table>
+
+        <h3>Comment voir les données EXIF</h3>
+        <ul>
+            <li><strong>Windows</strong> : clic droit sur l'image > Propriétés > Détails</li>
+            <li><strong>En ligne</strong> : utiliser un site comme <a href="https://exif.tools/" target="_blank">exif.tools</a></li>
+            <li><strong>Python</strong> : avec la bibliothèque Pillow (PIL)</li>
+            <li><strong>GIMP</strong> : menu Image > Propriétés de l'image</li>
+        </ul>
+
+        <!-- Vidéo -->
+        <h3>Vidéo : Comprendre les données EXIF</h3>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uGM_cDlG6e0" title="LES MÉTADONNÉES EXIF - 2nde SNT" allowfullscreen></iframe>
+        </div>
+
+        <!-- Lien image -->
+        <h3>Outil en ligne</h3>
+        <div class="image-container">
+            <a href="https://exif.tools/" target="_blank">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400" alt="EXIF Tools - lecteur de métadonnées en ligne">
+            </a>
+            <p>Cliquez sur l'image pour accéder à un lecteur EXIF en ligne</p>
+        </div>
+
+        <!-- Liens -->
+        <p>Liens utiles :</p>
+        <ul>
+            <li><a href="https://fr.wikipedia.org/wiki/Exchangeable_image_file_format" target="_blank">Wikipedia - Format EXIF</a></li>
+            <li><a href="https://pixees.fr/informatiquelycee/n_site/snt_photo.html" target="_blank">Pixees - Photographie numérique</a></li>
+        </ul>
+
+        <div class="source">
+            <strong>Sources :</strong> Pixees - Informatique au lycée (<a href="https://pixees.fr/informatiquelycee/n_site/snt_photo.html" target="_blank">pixees.fr</a>), Wikipedia - Exchangeable image file format.
+        </div>
+    </main>
+
+    <footer>
+        <p>Site réalisé dans le cadre du cours de NSI - 2026</p>
+    </footer>
+</body>
+</html>
